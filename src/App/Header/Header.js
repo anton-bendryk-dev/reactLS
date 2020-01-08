@@ -1,12 +1,12 @@
 import React from 'react'
 import './header.css'
-
+import './Logo/Logo.js'
 const Header  = () => {
     return (
         <div className="header">
 			<div className="inline-header">
 				<div className="col-width-25 logo">
-					<a href="/"><img src={pictures/logo.png} alt=""/></a>
+					<Logo/>
 				</div>
 				<div className="col-width-75">
 					<div className="col-height-45">
@@ -31,7 +31,7 @@ const Header  = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-width-25">
+					<div className="col-width-25"></div>
 						<div className="menu-buttons transport">
 							<a href="">Транспорт&#8195;<img src={pictures/arrow-down.png} alt=""/></a>
 							<div className="drop-menu">
@@ -54,3 +54,4 @@ const Header  = () => {
 			</div>
     )
 }
+export default Header

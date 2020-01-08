@@ -1,7 +1,8 @@
 import React from 'react';
 import '../style/reset.css'
 import '../style/ls.css'
-import Header from './Header/Header'
+import Header from '.src\App\Header\Header.js'
+
 function App() {
   return (
     <div className="wrapper">
