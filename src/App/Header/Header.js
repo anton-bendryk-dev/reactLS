@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
-import './Logo/Logo.js'
+import 'src\App\Header\Logo\Logo.js'
+import HeaderContacts from 'src\App\Header\Header contacts\HeaderContacts.js'
 const Header  = () => {
     return (
         <div className="header">
@@ -10,13 +11,7 @@ const Header  = () => {
 				</div>
 				<div className="col-width-75">
 					<div className="col-height-45">
-						<div className="header-contacts">
-							<div className="col-width-25 header-contacts">+380501523665&#8195;&#8195;</div> 
-							<div className="col-width-25 header-contacts">+380978757141&#8195;&#8195;</div> 
-							<div className="col-width-25 header-contacts">+380509898041&#8195;&#8195;</div>
-							<div className="col-width-25 header-links"><a href="https://www.facebook.com/companylogisticssolutions/">Мы в Facebook</a></div>
-							<div><a href="https://mail.ukr.net/desktop#sendmsg">logistics-solutions@ukr.net</a></div>	
-						</div>	
+						<HeaderContacts/>	
 					</div>									
 				</div>
 				<div className="col-height-50 menu-container">
@@ -51,7 +46,8 @@ const Header  = () => {
 					</div> 
 						</div>
 				</div>
-			</div>
+            </div>
+        </div>    
     )
 }
 export default Header

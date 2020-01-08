@@ -22,22 +22,6 @@
 	padding-right: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-.header-contacts {
-	display: flex;
-	justify-content:center;
-	align-content: center;
-}
-.header-contacts div{
-	min-width: 200px;
-	color: #2f3329;
-	padding-top: 3px;
-}
-.header-links a{
-	text-decoration: none;
-	color: #2f3329;
-	outline: none;
-}
 .menu-container {
 	display: flex;	
 	height: 49px;
