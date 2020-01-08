@@ -1,7 +1,7 @@
 import React from 'react';
-import './header-contacts.css'
-import Email from 'https://mail.ukr.net/desktop#sendmsg'
-import Facebook from 'https://www.facebook.com/companylogisticssolutions/'
+import './header-contacts.css';
+import Email from 'https://mail.ukr.net/desktop#sendmsg';
+import Facebook from 'https://www.facebook.com/companylogisticssolutions/';
 
 const HeaderContacts = () => {
     return (
