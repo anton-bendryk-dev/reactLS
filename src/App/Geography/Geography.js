@@ -1,9 +1,9 @@
 import React from 'react';
-import 'src\App\Geography\geography.css';
-import Flags from 'src\App\Geography\Flags\Flags.js';
-import DeliveryMap from 'src\pictures\delivery-map.png';
-import ThreeArrows from 'src\pictures\three-arrows.png';
-import mezhdunarodnyye from 'src\pictures\mezhdunarodnyye.jpg';
+import './geography.css';
+import Flags from './Flags/Flags.js';
+import DeliveryMap from '../../pictures/delivery-map.png';
+import ThreeArrows from '../../pictures/three-arrows.png';
+import mezhdunarodnyye from '../../pictures/mezhdunarodnyye.jpg';
 const Geography = () => {
     return (
         <div className="inline-main geography">

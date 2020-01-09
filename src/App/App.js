@@ -1,14 +1,14 @@
 import React from 'react';
-import 'src\style\resetLs.css';
-import 'src\style\ls.css';
-import Header from '.src\App\Header\Header.js';
-import Slide from 'src\App\Slide\Slide.js';
-import OurAdvantages from 'src\App\Our Advantages\OurAdvantages.js';
-import AboutCompany from 'src\App\About Company\AboutCompany.js';
-import Geography from 'src\App\Geography\Geography.js';
-import Transport from 'src\App\Transport\Transport.js';
-import slide3 from 'src\pictures\slide3.jpg';
-import GroupageCargo from 'src\pictures\groupage-cargo.jpg';
+import '../style/resetLs.css';
+import '../style/ls.css';
+import Header from './Header/Header.js';
+import Slide from './Slide/Slide.js';
+import OurAdvantages from './Our Advantages/OurAdvantages.js';
+import AboutCompany from './About Company/AboutCompany.js';
+import Geography from './Geography/Geography.js';
+import Transport from './Transport/Transport.js';
+import slide3 from '../pictures/slide3.jpg';
+import GroupageCargo from '../pictures/groupage-cargo.jpg';
 function App() {
   return (
     <div className="wrapper">

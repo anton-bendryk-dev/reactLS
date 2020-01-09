@@ -1,8 +1,8 @@
 import React from 'react';
 import './header.css';
-import Logo from 'src\App\Header\Logo\Logo.js';
-import HeaderContacts from 'src\App\Header\Header contacts\HeaderContacts.js';
-import Navigation from 'src\App\Header\Navigation\Navigation.js';
+import Logo from './Logo/Logo.js';
+import HeaderContacts from './Header contacts/HeaderContacts.js';
+import Navigation from './Navigation/Navigation.js';
 
 const Header  = () => {
     return (

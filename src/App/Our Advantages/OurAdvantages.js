@@ -1,11 +1,11 @@
 import React from 'react';
-import 'src\App\Our Advantages\OurAdvantages.css';
-import benefits1 from 'src\pictures\benefits\benefits1.png';
-import benefits2 from 'src\pictures\benefits\benefits2.png';
-import benefits3 from 'src\pictures\benefits\benefits3.png';
-import benefits4 from 'src\pictures\benefits\benefits4.png';
-import benefits5 from 'src\pictures\benefits\benefits5.png';
-import benefits6 from 'src\pictures\benefits\benefits6.png';
+import './OurAdvantages.css';
+import benefits1 from '../../pictures/benefits/benefits1.png';
+import benefits2 from '../../pictures/benefits/benefits2.png';
+import benefits3 from '../../pictures/benefits/benefits3.png';
+import benefits4 from '../../pictures/benefits/benefits4.png';
+import benefits5 from '../../pictures/benefits/benefits5.png';
+import benefits6 from '../../pictures/benefits/benefits6.png';
 
 const OurAdvantages = () => {
     return (

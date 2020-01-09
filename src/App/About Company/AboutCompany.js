@@ -1,5 +1,5 @@
 import React from 'react';
-import 'src\App\About Company\AboutCompany.css';
+import './AboutCompany.css';
 const AboutCompany = () => {
     return (
         <div className="about-company">

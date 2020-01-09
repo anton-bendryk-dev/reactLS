@@ -2,7 +2,7 @@
 	box-sizing: border-box !important;
 }
 body {
-	background-image: url(pictures/bgimg.png);
+	background-image: url(../pictures/bgimg.png);
 	font-family: 'Roboto', sans-serif;
 }
 .wrapper {
@@ -74,7 +74,7 @@ div.col-width-50 {
 
 .second{
 	/*background-color:white;*/
-	background-image: url(pictures/company1.png) ;
+	background-image: url(../pictures/company1.png) ;
 	min-height: 610px;
 }
 .second h2{

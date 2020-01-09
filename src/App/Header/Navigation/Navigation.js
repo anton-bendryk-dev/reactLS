@@ -1,7 +1,6 @@
 import React from 'react';
 import './navigation.css';
-import ArrowDown from 'src\pictures\arrow-down.png';
-import WorkUA from 'https://www.work.ua/ru/jobs/by-company/1202656/'
+import ArrowDown from '../../../pictures/arrow-down.png';
 const Navigation = () => {
     return (
         <div className="menu-container">
@@ -12,7 +11,7 @@ const Navigation = () => {
 						<div className="menu-buttons"><a href="">Наши Преимущества</a></div>
 						<div className="menu-buttons"><a href="">Наша Команда</a></div>
 						<div className="menu-buttons"><a href="">Сертификаты</a></div>
-						<div className="menu-buttons"><a href={WorkUA}>Вакансии</a></div>
+						<div className="menu-buttons"><a href='https://www.work.ua/ru/jobs/by-company/1202656/'>Вакансии</a></div>
 					</div>
 				</div>
 			</div>

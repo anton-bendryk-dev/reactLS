@@ -1,6 +1,6 @@
 import React from 'react';
-import slide2 from 'src\pictures\slide2.jpg';
-import 'src\App\Slide\slide.css';
+import slide2 from '../../pictures/slide2.jpg';
+import './slide.css';
 const Slide = () => {
     return (
         <div className="slide row">

@@ -1,4 +1,13 @@
 import React from 'react';
+import transport1 from '../../pictures/transport/transport1.jpg';
+import transport2 from '../../pictures/transport/transport2.jpg';
+import transport3 from '../../pictures/transport/transport3.jpg';
+import transport4 from '../../pictures/transport/transport4.jpg';
+import transport5 from '../../pictures/transport/transport5.jpg';
+import transport6 from '../../pictures/transport/transport6.jpg';
+import transport7 from '../../pictures/transport/transport7.jpg';
+import transport8 from '../../pictures/transport/transport8.jpg';
+import transport9 from '../../pictures/transport/transport9.jpg';
 
 const Transport = () => {
     return (
@@ -6,7 +15,7 @@ const Transport = () => {
             <h3 className="h3">Типы кузовов грузовых автомобилей</h3>
           <div className="transport-container">
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport1.jpg} alt="" />
+              <img src={transport1} alt="" />
               <h3>Тентованый полуприцеп (еврофура):</h3>
               <ul>
                 <li>Грузоподъемность: до 22,5 тонн.</li>
@@ -18,7 +27,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport2.jpg} alt="" />
+              <img src={transport2} alt="" />
               <h3>Тентовые полуприцепы большего объема  (Jumbo и МЕГА):</h3>
               <ul>
                 <li>Грузоподъемность: до 23 тонн.</li>
@@ -33,7 +42,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport3.jpg} alt="" />
+              <img src={transport3} alt="" />
               <h3>Автосцепка:</h3>
               <ul>
                 <li>Автомобиль с кузовом на одной раме + прицеп.Преимущество: большой полезный объем.</li>
@@ -46,7 +55,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport4.jpg} alt="" />
+              <img src={transport4} alt="" />
               <h3>Рефрижераторный фургон:</h3>
               <ul>
                 <li>Полуприцеп-холодильник.</li>
@@ -61,7 +70,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport5.jpg} alt="" />
+              <img src={transport5} alt="" />
               <h3>Изотермический фургон:</h3>
               <ul>
                 <li>
@@ -77,7 +86,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport6.jpg} alt="" />
+              <img src={transport6} alt="" />
               <h3>Открытый бортовой полуприцеп:</h3>
               <ul>
                 <li>Груз: применяется для перевозки грузов, устойчивых к внешним погодным воздействиям.</li>
@@ -87,7 +96,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport7.jpg} alt="" />
+              <img src={transport7} alt="" />
               <h3>Открытая платформа:</h3>
               <ul>
                 <li>Груз: применяется для перевозки грузов, устойчивых к внешним погодным воздействиям таким как контейнера, бетонные блоки, перекрытия, строительные конструкции и т.д. </li>
@@ -97,7 +106,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport8.png} alt="" />
+              <img src={transport8} alt="" />
               <h3>Платформа для негабаритных и тяжеловесных грузов:</h3>
               <ul>
                 <li>
@@ -108,7 +117,7 @@ const Transport = () => {
               </ul>
             </div>
             <div className="info-container transport-box">
-              <img src={pictures / transport / transport9.jpg} alt="" />
+              <img src={transport9} alt="" />
               <h3>Цельномет:</h3>
               <ul>
                 <li>Евро фура с металлическим со всех сторон полуприцепом.</li>
@@ -126,3 +135,4 @@ const Transport = () => {
         </div>
     )
 }
+export default Transport
