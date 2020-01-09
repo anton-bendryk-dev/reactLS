@@ -1,23 +1,24 @@
 import React from 'react';
 import './navigation.css';
-
+import ArrowDown from 'src\pictures\arrow-down.png';
+import WorkUA from 'https://www.work.ua/ru/jobs/by-company/1202656/'
 const Navigation = () => {
     return (
         <div className="menu-container">
             <div className="col-width-25">
-				<div className="menu-buttons"><a href="">Компания&#8195;<img src={pictures/arrow-down.png} alt=""/></a>
+				<div className="menu-buttons"><a href="">Компания&#8195;<img src={ArrowDown} alt=""/></a>
 					<div className="drop-menu">
 						<div className="menu-buttons"><a href="">О Нас</a></div>
 						<div className="menu-buttons"><a href="">Наши Преимущества</a></div>
 						<div className="menu-buttons"><a href="">Наша Команда</a></div>
 						<div className="menu-buttons"><a href="">Сертификаты</a></div>
-						<div className="menu-buttons"><a href="https://www.work.ua/ru/jobs/by-company/1202656/">Вакансии</a></div>
+						<div className="menu-buttons"><a href={WorkUA}>Вакансии</a></div>
 					</div>
 				</div>
 			</div>
 			<div className="col-width-25">
 				<div className="menu-buttons transport">
-					<a href="">Транспорт&#8195;<img src={pictures/arrow-down.png} alt=""/></a>
+					<a href="">Транспорт&#8195;<img src={ArrowDown} alt=""/></a>
 					<div className="drop-menu">
 						<div className="menu-buttons"><a href="">География</a></div>
 						<div className="menu-buttons"><a href="">Автомобильные</a></div>
