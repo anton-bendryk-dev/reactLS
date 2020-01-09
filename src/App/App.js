@@ -3,7 +3,7 @@ import '../style/reset.css';
 import '../style/ls.css';
 import Header from '.src\App\Header\Header.js';
 import Slide from 'src\App\Slide\Slide.js';
-
+import OurAdvantages from 'src\App\Our Advantages\OurAdvantages.js';
 function App() {
   return (
     <div className="wrapper">
@@ -14,32 +14,7 @@ function App() {
       <div className="container first row">
         <div className="inline-wrapper">
           <div className="main row">
-            <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
-            <div className="container-for-boxes">
-              <div className="info-container">
-                <div className="box-img"><img src={pictures/benefits/benefits1.png} alt=""/></div>
-                <div className="box-text"><p>Получите груз вовремя, в установленные сроки</p></div>
-              </div>
-						<div className="info-container">
-							<div className="box-img"><img src={pictures/benefits/benefits2.png} alt=""/></div>
-							<div className="box-text"><p>Оперативно отправляем все закрывающие документы</p></div>
-						</div>
-						<div className="info-container">
-							<div className="box-img"><img src={pictures/benefits/benefits3.png} alt=""/></div>
-							<div className="box-text"><p>Вы всегда можете узнать местонахождение Вашего груза</p></div>
-						</div>
-						<div className="info-container">
-							<div className="box-img"><img src={pictures/benefits/benefits4.png} alt=""/></div>
-							<div className="box-text"><p>Наши цены одни из самых конкурентных на рынке</p></div>
-						</div>
-						<div className="info-container">
-							<div className="box-img"><img src={pictures/benefits/benefits5.png} alt=""/></div>
-							<div className="box-text"><p>Каждому клиенту мы выделяем личного менеджера, для связи</p></div>
-						</div>
-						<div className="info-container">
-							<div className="box-img"><img src={pictures/benefits/benefits6.png} alt=""/></div>
-							<div className="box-text"><p>Гарантии сохранности груза от момента получения до сдачи</p></div>
-						</div>
+              <OurAdvantages/>
 					</div>				
 				</div>
 			</div>			
@@ -66,6 +41,7 @@ function App() {
 								<li>перевозка негабаритных и тяжеловесных грузов;</li>
 							</ul>	
 						</div>
+          </div>  
 				</div>
 			</div>
 		</div>	

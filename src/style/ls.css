@@ -63,41 +63,8 @@ div.col-width-50 {
 .container{
 	min-height: 400px;
 }
-/*START OUR BENEFITS*/
-.first h2{
-	color: black;
-	margin-top: 10px;
-	text-align: center;
-}
-.container h2{
-	font-size: 28px;
-	font-weight: 600;
-	color: #8cbf41;
-	margin-top: 10px;
-}
-.container-for-boxes{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding-bottom: 20px;
-}
-.box-img{
-	width: 30%;
-	float: left;
-	text-align: center;
-}
-.box-text{
-	float: right;
-	width: 70%;
-	display: flex;
-	align-items: center;
-	min-height: 100px;
-}
-.box-text p{
-	height: 50px;
-	font-size: 21px;
-	font-weight: 400;
-}
+/*START OUR Advantages*/
+
 /*START MAIN ABOUT COMPANY*/
 .second{
 	/*background-color:white;*/
