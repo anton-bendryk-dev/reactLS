@@ -1,0 +1,14 @@
+.about-company{
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	padding-top: 80px;
+}
+.about-company p{
+	font-variant: small-caps;	
+	font-size: 18px;
+	font-weight: 600;
+}
+.about-company h2, h3{
+	margin-left: 15px;
+}

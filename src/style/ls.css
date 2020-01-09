@@ -66,20 +66,6 @@ div.col-width-50 {
 /*START OUR Advantages*/
 
 /*START MAIN ABOUT COMPANY*/
-.second{
-	/*background-color:white;*/
-	background-image: url(pictures/company1.png) ;
-	min-height: 610px;
-}
-.second h2{
-	color:#8cbf41;
-}
-.about-company-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	z-index: -1;
-}
 .main {
 	width: 100%;
 	min-height: 240px;
@@ -88,11 +74,13 @@ div.col-width-50 {
 .inline-main{
 	display: flex;
 }
-.about-company{
-	width: 100%;
-	display:flex;
-	justify-content: space-between;
-	padding-top: 80px;
+.second{
+	/*background-color:white;*/
+	background-image: url(pictures/company1.png) ;
+	min-height: 610px;
+}
+.second h2{
+	color:#8cbf41;
 }
 .info-container{
 	background-color:white;
@@ -120,14 +108,6 @@ div.col-width-50 {
 	margin-left: 16px;
 	font-weight: 400;
 	list-style-type:disc;
-}
-.about-company p{
-	font-variant: small-caps;	
-	font-size: 18px;
-	font-weight: 600;
-}
-.about-company h2, h3{
-	margin-left: 15px;
 }
 /*FINISH MAIN ABOUT COMPANY*/
 /*GEOGRAFHY CONTAINER*/
