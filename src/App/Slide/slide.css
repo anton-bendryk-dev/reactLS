@@ -1,0 +1,17 @@
+.slide {
+	width: 100%;
+	min-height: 300px;
+	max-height:300px;
+	margin-bottom: 365px;
+}
+.slide-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-height:300px;
+}
+.main-slide img{
+	border-radius: 30px;
+	border: 1px solid;
+	border-color: #8cbf41;	
+}

@@ -2,17 +2,14 @@ import React from 'react';
 import '../style/reset.css';
 import '../style/ls.css';
 import Header from '.src\App\Header\Header.js';
+import Slide from 'src\App\Slide\Slide.js';
 
 function App() {
   return (
     <div className="wrapper">
 			<Header/>
         <div className="inline-wrapper">
-          <div className="slide row">
-            <div className="slide-container">
-              <div className="main-slide"><img src={pictures/slide2.jpg} alt=""/></div>	
-            </div>
-          </div> 
+            <Slide/>
         </div>
       <div className="container first row">
         <div className="inline-wrapper">

@@ -1,7 +1,9 @@
 import React from 'react';
 import './header.css';
-import 'src\App\Header\Logo\Logo.js';
+import Logo from 'src\App\Header\Logo\Logo.js';
 import HeaderContacts from 'src\App\Header\Header contacts\HeaderContacts.js';
+import Navigation from 'src\App\Header\Navigation\Navigation.js';
+
 const Header  = () => {
     return (
         <div className="header">
