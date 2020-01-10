@@ -1,0 +1,43 @@
+.transport-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-radius: 30px;
+	border: 1px solid;
+	border-color: #8cbf41;
+	background-color: #fff;
+}
+.h3{
+	text-align: center;
+	font-size: 26px;
+	color:#b5ff49;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+.transport-box{
+	width: 300px;
+}
+.transport-container p{
+	margin: 20px 45px 20px 45px;
+	font-size: 19px;
+	font-weight: 600;
+}
+/*START СБОРНЫЕ ГРУЗЫ*/
+.third{
+	background-color: #fff;
+}
+.groupage-cargo{
+	padding-top: 40px;
+}
+.groupage-cargo-container{
+	width: 30%;
+	float: left;
+}
+.groupage-cargo-container h2{
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+.groupage-cargo-img{
+	width: 70%;
+	float: right;
+}

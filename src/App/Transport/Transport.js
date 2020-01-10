@@ -1,4 +1,5 @@
 import React from 'react';
+import './transport.css'
 import transport1 from '../../pictures/transport/transport1.jpg';
 import transport2 from '../../pictures/transport/transport2.jpg';
 import transport3 from '../../pictures/transport/transport3.jpg';

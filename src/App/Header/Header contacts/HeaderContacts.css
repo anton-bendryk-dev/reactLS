@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content:center;
 	align-content: center;
+	
 }
 .header-contacts div{
 	min-width: 200px;
@@ -12,4 +13,7 @@
 	text-decoration: none;
 	color: #2f3329;
 	outline: none;
+}
+.pn {
+	padding-top: 0px !important;
 }
