@@ -1,6 +1,7 @@
 import React from 'react';
-import './transport.css'
-import transport1 from '../../pictures/transport/transport1.jpg';
+import './transport.css';
+import TransportBox from './Transport-box/TransportBox.js';
+import TransportBoxItem from './Transport-box/TransportBoxItem';
 import transport2 from '../../pictures/transport/transport2.jpg';
 import transport3 from '../../pictures/transport/transport3.jpg';
 import transport4 from '../../pictures/transport/transport4.jpg';
@@ -16,16 +17,31 @@ const Transport = () => {
             <h3 className="h3">Типы кузовов грузовых автомобилей</h3>
           <div className="transport-container">
             <div className="info-container transport-box">
-              <img src={transport1} alt="" />
-              <h3>Тентованый полуприцеп (еврофура):</h3>
-              <ul>
-                <li>Грузоподъемность: до 22,5 тонн.</li>
-                <li>Полезный объем: 82-92 м.куб</li>
-                <li>Размеры: длинна 13,6м, ширина 2,48м, высота 2,6-2,8м</li>
-                <li>Вместительность: 34 европаллета</li>
-                <li>Груз: это самый распространенный тип кузова. Пригоден для перевозки большинства грузов. Растентовка позволяет производить загрузку сверху (уточнять), сбоку и сзади.</li>
-                <li>Не подходит для: грузов, требующих особого температурного режима; крупногабаритных и негабаритных грузов</li>
-              </ul>
+              {
+                TransportBox.map(({
+                  id,
+                  image,
+                  name,
+                  CarryingCapacity,
+                  UsefulVolume,
+                  size,
+                  spaciousness,
+                  cargo,
+                  NotSuitableFor
+                }) => (
+                  <TransportBoxItem
+                  id = {id}
+                  image = {image}
+                  name = {name}
+                  CarryingCapacity = {CarryingCapacity}
+                  UsefulVolume = {UsefulVolume}
+                  size = {size}
+                  spaciousness = {spaciousness}
+                  cargo = {cargo}
+                  NotSuitableFor = {NotSuitableFor}
+                  />
+                ))
+              }
             </div>
             <div className="info-container transport-box">
               <img src={transport2} alt="" />
