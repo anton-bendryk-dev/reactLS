@@ -12,7 +12,7 @@ const Geography = () => {
             </div>
             <div className="content">
                 <div className="geography-content">
-                    <h2>География</h2>
+                    <h2>География Грузоперевозок</h2>
                     <div><img className="delivery-map" src={DeliveryMap} alt="" /></div>
                     <div className="three-arrows"><img src={ThreeArrows} alt="" /></div>
                     <div className="geography-container">
