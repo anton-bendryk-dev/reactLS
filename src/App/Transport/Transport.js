@@ -8,7 +8,7 @@ import transport4 from '../../pictures/transport/transport4.jpg';
 import transport5 from '../../pictures/transport/transport5.jpg';
 import transport6 from '../../pictures/transport/transport6.jpg';
 import transport7 from '../../pictures/transport/transport7.jpg';
-import transport8 from '../../pictures/transport/transport8.jpg';
+import transport8 from '../../pictures/transport/transport8.png';
 import transport9 from '../../pictures/transport/transport9.jpg';
 
 const Transport = () => {
