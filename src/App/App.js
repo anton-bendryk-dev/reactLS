@@ -9,6 +9,7 @@ import Geography from './Geography/Geography.js';
 import Transport from './Transport/Transport.js';
 import slide3 from '../pictures/slide3.jpg';
 import GroupageCargo from './GroupageCargo/GroupageCargo.js';
+import Partners from "./Partners/Partners";
 function App() {
   return (
     <div className="wrapper">
@@ -32,7 +33,7 @@ function App() {
       </div>
       <div className="inline-wrapper">
         <div className="main row">
-          <Geography/>
+          <Geography />
         </div>
       </div>
       <div className="insert-img row"><h3>Автомобильные грузоперевозки</h3>
@@ -42,23 +43,31 @@ function App() {
       </div>
       <div className="inline-wrapper">
         <div className="main row">
-          <Transport/>
+          <Transport />
         </div>
       </div>
       <div className="container third row">
         <div className="inline-wrapper">
           <div className="main row">
-            <GroupageCargo/>
+            <GroupageCargo />
           </div>
         </div>
       </div>
-      <div className="inline-wrapper">
-        <div className="footer row">
-          <div className="inline-footer">
-            <div><p>Украина, Киев, ул. Пшеничная, 9, 03134</p></div>
+      <div className="container four row">
+        <div className="inline-wrapper">
+          <div className="partners">
+            <h3>Нам доверяют</h3>
+            <Partners />
           </div>
         </div>
       </div>
+    <div className="inline-wrapper">
+      <div className="footer row">
+        <div className="inline-footer">
+          <div><p>Украина, Киев, ул. Пшеничная, 9, 03134</p></div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }

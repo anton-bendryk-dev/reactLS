@@ -11,7 +11,7 @@ const Navigation = () => {
 				<div className="menu-buttons"><a href="">Компания&#8195;<img src={ArrowDown} alt=""/></a>
 					<div className="drop-menu">
 						<div className="menu-buttons"><a href="">О Нас</a></div>
-						<div className="menu-buttons"><a href="">Услуги</a></div>
+						<div className="menu-buttons"><a href="">Наши Партнеры</a></div>
 						<div className="menu-buttons"><a href="">Наша Команда</a></div>
 						<div className="menu-buttons"><a href="">Сертификаты</a></div>
 						<div className="menu-buttons"><a href='https://www.work.ua/ru/jobs/by-company/1202656/'>Вакансии</a></div>
