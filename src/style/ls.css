@@ -140,6 +140,7 @@ div.col-width-50 {
 .four h2{
 	text-align: center;
 }
+/*START СБОРНЫЕ ГРУЗЫ*/
 /*START FOOTER*/
 .footer{
 	display: flex;
@@ -157,7 +158,6 @@ div.col-width-50 {
 .inline-footer p{
 	color: white;
 }
-
 /*FINISH FOOTER*/
 /*FORMA*/
 .done{

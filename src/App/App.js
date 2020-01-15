@@ -8,7 +8,7 @@ import AboutCompany from './About Company/AboutCompany.js';
 import Geography from './Geography/Geography.js';
 import Transport from './Transport/Transport.js';
 import slide3 from '../pictures/slide3.jpg';
-import GroupageCargo from '../pictures/groupage-cargo.jpg';
+import GroupageCargo from './GroupageCargo/GroupageCargo.js';
 function App() {
   return (
     <div className="wrapper">
@@ -48,16 +48,7 @@ function App() {
       <div className="container third row">
         <div className="inline-wrapper">
           <div className="main row">
-            <div className="groupage-cargo">
-              <div className="groupage-cargo-container">
-                <h2>СБОРНЫЕ ГРУЗЫ</h2>
-                <p>Компания Logistics Solutions также занимается перевозкой сборных грузов и это составляет большую долю наших транспортировок. Доставка сборных грузов востребована среди представителей многих отраслей и бизнесов разного размера, от индивидуальных предпринимателей до крупных корпораций. Такой вид транспортировки представляет собой перевозку небольших товаров разных поставщиков в одном направлении.</p>
-              </div>
-              <div className="groupage-cargo-img">
-                <img src={GroupageCargo} alt="" />
-              </div>
-              <p>Разумное использование грузового места снижает издержки при доставке и гарантирует безопасность товаров.Мы изучаем нужды заказчика и характеристики груза, составляем подходящую схему транспортировки и рассчитываем стоимость. Наша компания доставляет товары в срок независимо от конечного пункта назначения. Надёжные логистические компании и другие партнёры позволяют нам сохранять небольшие цены и швейцарское качество обслуживания при экспорте и импорте сборных грузов. Мы придерживаемся высоких стандартов во всех мелочах.</p>
-            </div>
+            <GroupageCargo/>
           </div>
         </div>
       </div>
