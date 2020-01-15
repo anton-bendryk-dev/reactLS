@@ -14,6 +14,9 @@
 	color: #2f3329;
 	outline: none;
 }
+.header-links a:hover{
+	color:#8cbf41;
+}
 .pn {
 	padding-top: 0px !important;
 }
