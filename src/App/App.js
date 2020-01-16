@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="container second row">
         <div className="inline-wrapper">
-          <div className="main row">
+          <div className="main row" id="about-company">
             <AboutCompany />
           </div>
         </div>
@@ -55,7 +55,7 @@ function App() {
       </div>
       <div className="container four row">
         <div className="inline-wrapper">
-          <div className="partners">
+          <div className="partners" id="partners">
             <h3>Нам доверяют</h3>
             <Partners />
           </div>

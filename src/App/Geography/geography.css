@@ -1,5 +1,6 @@
 .inline-main{
 	display: flex;
+	margin-top: 20px;
 }
 .side-bar{
 	background-color: #fff;
