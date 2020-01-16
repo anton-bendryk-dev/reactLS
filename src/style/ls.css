@@ -3,6 +3,7 @@
 }
 body {
 	background-image: url(../pictures/bgimg.png);
+	overflow-x:hidden;
 }
 h1, h2, h3, h4, p, ul, li, a {
 	font-family: 'Ubuntu', sans-serif;
@@ -145,7 +146,8 @@ div.col-width-50 {
 .footer{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	background-color: #8cbf41;
 	width: 100%;
 	min-height: 100px;
@@ -155,7 +157,11 @@ div.col-width-50 {
 	border-color: #8cbf41;
 	z-index: 1;
 }
-.inline-footer p{
+.footer div{
+	width: 33%;
+	text-align: center;
+}
+.footer p{
 	color: white;
 }
 /*FINISH FOOTER*/

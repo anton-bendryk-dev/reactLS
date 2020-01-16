@@ -5,7 +5,11 @@ const Slide = () => {
     return (
         <div className="slide row">
             <div className="slide-container">
-                <div className="main-slide"><img src={slide2} alt=""/></div>	
+                <div className="main-slide">
+                    <div id="axis" class="two">
+                        <img class="object van move-left" src={slide2} alt=""/>/>
+                    </div>
+                </div>	
             </div>
         </div> 
     )

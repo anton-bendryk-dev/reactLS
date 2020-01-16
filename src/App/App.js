@@ -61,13 +61,16 @@ function App() {
           </div>
         </div>
       </div>
-    <div className="inline-wrapper">
-      <div className="footer row">
-        <div className="inline-footer">
-          <div><p>Украина, Киев, ул. Пшеничная, 9, 03134</p></div>
+      <div className="inline-wrapper">
+        <div className="footer row">
+            <div><p>ФЛП «ЛИСТОПАД СЕРГЕЙ ОЛЕКСАНДРОВИЧ»</p>
+              <p>Код ЕГРПОУ 3202202237</p>
+              <p>Сертификат № 0387173306</p>
+            </div>
+            <div><p>Украина, Киев, ул. Пшеничная, 9, 03134</p></div>
+            <div><p>Website developed by Bendryk Anton</p></div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
