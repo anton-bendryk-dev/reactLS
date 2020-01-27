@@ -20,3 +20,11 @@
 .pn {
 	padding-top: 0px !important;
 }
+.link-img {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../../../pictures/icons8-external-link-squared-24.png);
+	background-origin:content-box;
+	background-size: cover;
+}
