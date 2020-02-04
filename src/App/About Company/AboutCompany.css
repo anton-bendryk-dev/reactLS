@@ -2,12 +2,13 @@
 	width: 100%;
 	display:flex;
 	justify-content: space-between;
-	padding-top: 108px;
+	padding-top: 100px;
 }
-.about-company p{
+.about-company p, li{
 	font-variant: small-caps;	
 	font-size: 18px;
 	font-weight: 700;
+	color:#727b82;
 }
 .about-company h2, h3{
 	margin-left: 15px;

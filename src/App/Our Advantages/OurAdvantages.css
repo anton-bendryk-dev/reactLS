@@ -1,7 +1,13 @@
+.first {
+	background-image: url(../../pictures/core_values_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .first h2{
 	color: black;
 	margin-top: 10px;
 	text-align: center;
+	padding-top: 10px;
 }
 .container h2{
 	font-size: 22px;
