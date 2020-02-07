@@ -55,6 +55,7 @@ const Flags = () => {
             <div><img src={flag3} alt="" /></div>
             <div><img src={flag4} alt="" /></div>
             <div><img src={flag8} alt="" /></div>
+            <div><img src={flag19} alt="" /></div>
         </div>
     )
 }

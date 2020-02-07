@@ -14,7 +14,8 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <div className="inline-wrapper">
+      <div>
+      <a href="/"></a>
         <Slide />
       </div>
       <div className="container first row">
@@ -31,12 +32,13 @@ function App() {
           </div>
         </div>
       </div>
+      
       <div className="inline-wrapper">
         <div className="main row">
           <Geography />
         </div>
       </div>
-      <div className="insert-img row"><h3>Автомобильные грузоперевозки</h3>
+      <div className="insert-img row"><h3 className='deepshadow'>Автомобильные грузоперевозки</h3>
         <div className="insert-img-container">
           <div className="second-insert-img"><img src={slide3} alt="" /></div>
         </div>
