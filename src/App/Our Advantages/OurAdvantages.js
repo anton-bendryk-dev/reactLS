@@ -35,8 +35,8 @@ const OurAdvantages = () => {
                 <div className="box-text"><p>Каждому клиенту мы выделяем личного менеджера, для связи</p></div>
             </div>
             <div className="info-container">
-                <div className="box-img" id="CostCalculation"><img src={benefits6} alt=""/></div>
-                <div className="box-text"><p>Гарантии сохранности груза от момента получения до сдачи</p></div>
+                <div className="box-img"><img src={benefits6} alt=""/></div>
+                <div className="box-text"><p id="CostCalculation">Гарантии сохранности груза от момента получения до сдачи</p></div>
             </div>
         </div>
         </div>            
