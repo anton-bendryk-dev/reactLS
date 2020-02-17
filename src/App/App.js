@@ -4,35 +4,34 @@ import '../style/ls.css';
 import Header from './Header/Header.js';
 import Slide from './Slide/Slide.js';
 import OurAdvantages from './Our Advantages/OurAdvantages.js';
-import AboutCompany from './About Company/AboutCompany.js';
 import Geography from './Geography/Geography.js';
 import Transport from './Transport/Transport.js';
 import slide3 from '../pictures/slide3.jpg';
 import GroupageCargo from './GroupageCargo/GroupageCargo.js';
 import Partners from "./Partners/Partners";
+import CostCalculation from "./CostCalculation/CostCalculation.js"
 function App() {
   return (
     <div className="wrapper">
       <Header />
       <div>
-      <a href="/"></a>
         <Slide />
       </div>
-      <div className="container first row">
+      <div className="container first row" id="about-company">
         <div className="inline-wrapper">
           <div className="main row">
             <OurAdvantages />
           </div>
         </div>
       </div>
-      <div className="container second row">
+      <div className="container five row">
         <div className="inline-wrapper">
-          <div className="main row" id="about-company">
-            <AboutCompany />
+          <div className="main row">
+            <CostCalculation />
           </div>
         </div>
       </div>
-      
+      <div></div>
       <div className="inline-wrapper">
         <div className="main row">
           <Geography />

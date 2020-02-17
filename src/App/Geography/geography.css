@@ -20,7 +20,7 @@
 .side-bar-right{
 	border-radius: 0px 30px 30px 30px;
 }
-.content {
+.geography-content-container {
 	min-height: 500px;
 	width: 82%;
 	background-color: white;

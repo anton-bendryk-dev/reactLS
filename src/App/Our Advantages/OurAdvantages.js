@@ -6,11 +6,13 @@ import benefits3 from '../../pictures/benefits/benefits3.png';
 import benefits4 from '../../pictures/benefits/benefits4.png';
 import benefits5 from '../../pictures/benefits/benefits5.png';
 import benefits6 from '../../pictures/benefits/benefits6.png';
+import AboutCompany from '../About Company/AboutCompany'
 
 const OurAdvantages = () => {
     return (
         <div>
-        <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+            <AboutCompany/>
+        <h2 className="OurAdvantages">НАШИ ПРЕИМУЩЕСТВА</h2>
         <div className="container-for-boxes">
             <div className="info-container">
                 <div className="box-img"><img src={benefits1} alt=""/></div>
@@ -33,7 +35,7 @@ const OurAdvantages = () => {
                 <div className="box-text"><p>Каждому клиенту мы выделяем личного менеджера, для связи</p></div>
             </div>
             <div className="info-container">
-                <div className="box-img"><img src={benefits6} alt=""/></div>
+                <div className="box-img" id="CostCalculation"><img src={benefits6} alt=""/></div>
                 <div className="box-text"><p>Гарантии сохранности груза от момента получения до сдачи</p></div>
             </div>
         </div>

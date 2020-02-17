@@ -2,13 +2,14 @@
 	background-image: url(../../pictures/core_values_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	margin-top: 18px;
 }
-.first h2{
-	color: black;
+.OurAdvantages{
 	margin-top: 10px;
 	text-align: center;
 	padding-top: 10px;
+	margin-bottom: 10px;
 }
 .container h2{
 	font-size: 22px;
@@ -22,9 +23,9 @@
 	padding-bottom: 20px;
 }
 .box-img{
-	width: 30%;
+	width: 20%;
 	float: left;
-	text-align: center;
+	margin-left: 15px;
 }
 .box-text{
 	float: right;
@@ -37,4 +38,5 @@
 	height: 50px;
 	font-size: 21px;
 	font-weight: 400;
+	color:#727b82;
 }
