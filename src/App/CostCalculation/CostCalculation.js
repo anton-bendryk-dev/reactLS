@@ -16,7 +16,6 @@ const CostCalculation = () => {
             <div className="Forma-container">
                     <div class="calculation-container-small">
                         <form action="" method="post">
-                            <img class="done" src="pictures/done.png"/>
                                 <h2>Заполните форму заявки, и мы рассчитаем стоимость грузоперевозки:</h2>
                                 <input class="input-style" type="text" name="name" placeholder="Имя" required />
                                 <input class="input-style" type="text" name="email" placeholder="Email" />
@@ -36,7 +35,7 @@ const CostCalculation = () => {
                                         <label id="Geography"><input type="checkbox" name="" value="yes" />&#8195;АДР</label>
                                     </div>
                                     <div class="send-button-container">
-                                        <div class="send-button"><a href="">Отправить</a></div>
+                                        <div class="send-button"><a href="/">Отправить</a></div>
                                     </div>
                         </form>
                     </div>
